@@ -13,6 +13,20 @@
 		12754CAC219401E9005A7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12754CAB219401E9005A7048 /* Assets.xcassets */; };
 		12754CAF219401E9005A7048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12754CAD219401E9005A7048 /* LaunchScreen.storyboard */; };
 		12754CB2219401E9005A7048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CB1219401E9005A7048 /* main.m */; };
+		12754CC121940424005A7048 /* UIView+snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CB921940423005A7048 /* UIView+snapshot.m */; };
+		12754CC221940424005A7048 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CBD21940423005A7048 /* UIImage+Extension.m */; };
+		12754CC421940424005A7048 /* UIColor+Complementary.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CC021940424005A7048 /* UIColor+Complementary.m */; };
+		12754CC721940437005A7048 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CC621940437005A7048 /* UIColor+Hex.m */; };
+		12754CCA2194058C005A7048 /* UIViewController+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CC92194058C005A7048 /* UIViewController+Camera.m */; };
+		12754CDF219406E7005A7048 /* PaletteColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CD1219406E7005A7048 /* PaletteColorModel.m */; };
+		12754CE0219406E7005A7048 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CD3219406E7005A7048 /* Palette.m */; };
+		12754CE1219406E7005A7048 /* PaletteColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CD5219406E7005A7048 /* PaletteColorUtils.m */; };
+		12754CE2219406E7005A7048 /* PaletteSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CD7219406E7005A7048 /* PaletteSwatch.m */; };
+		12754CE3219406E7005A7048 /* PaletteTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CD9219406E7005A7048 /* PaletteTarget.m */; };
+		12754CE4219406E7005A7048 /* PriorityBoxArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CDB219406E7005A7048 /* PriorityBoxArray.m */; };
+		12754CE5219406E7005A7048 /* UIImage+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CDD219406E7005A7048 /* UIImage+Palette.m */; };
+		12754CEA21940B77005A7048 /* UIButton+BlackWhiteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CE921940B77005A7048 /* UIButton+BlackWhiteImage.m */; };
+		12754CEF219411F6005A7048 /* BlackWhiteOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 12754CEE219411F6005A7048 /* BlackWhiteOption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,35 @@
 		12754CAE219401E9005A7048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12754CB0219401E9005A7048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12754CB1219401E9005A7048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12754CB921940423005A7048 /* UIView+snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+snapshot.m"; sourceTree = "<group>"; };
+		12754CBB21940423005A7048 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		12754CBC21940423005A7048 /* UIView+snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+snapshot.h"; sourceTree = "<group>"; };
+		12754CBD21940423005A7048 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		12754CBF21940424005A7048 /* UIColor+Complementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Complementary.h"; sourceTree = "<group>"; };
+		12754CC021940424005A7048 /* UIColor+Complementary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Complementary.m"; sourceTree = "<group>"; };
+		12754CC521940437005A7048 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		12754CC621940437005A7048 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		12754CC82194058C005A7048 /* UIViewController+Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Camera.h"; sourceTree = "<group>"; };
+		12754CC92194058C005A7048 /* UIViewController+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Camera.m"; sourceTree = "<group>"; };
+		12754CCD219406E7005A7048 /* iOSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSPalette.h; sourceTree = "<group>"; };
+		12754CD0219406E7005A7048 /* PaletteColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorModel.h; sourceTree = "<group>"; };
+		12754CD1219406E7005A7048 /* PaletteColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorModel.m; sourceTree = "<group>"; };
+		12754CD2219406E7005A7048 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		12754CD3219406E7005A7048 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		12754CD4219406E7005A7048 /* PaletteColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorUtils.h; sourceTree = "<group>"; };
+		12754CD5219406E7005A7048 /* PaletteColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorUtils.m; sourceTree = "<group>"; };
+		12754CD6219406E7005A7048 /* PaletteSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteSwatch.h; sourceTree = "<group>"; };
+		12754CD7219406E7005A7048 /* PaletteSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteSwatch.m; sourceTree = "<group>"; };
+		12754CD8219406E7005A7048 /* PaletteTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteTarget.h; sourceTree = "<group>"; };
+		12754CD9219406E7005A7048 /* PaletteTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteTarget.m; sourceTree = "<group>"; };
+		12754CDA219406E7005A7048 /* PriorityBoxArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityBoxArray.h; sourceTree = "<group>"; };
+		12754CDB219406E7005A7048 /* PriorityBoxArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityBoxArray.m; sourceTree = "<group>"; };
+		12754CDC219406E7005A7048 /* UIImage+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Palette.h"; sourceTree = "<group>"; };
+		12754CDD219406E7005A7048 /* UIImage+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Palette.m"; sourceTree = "<group>"; };
+		12754CE821940B77005A7048 /* UIButton+BlackWhiteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BlackWhiteImage.h"; sourceTree = "<group>"; };
+		12754CE921940B77005A7048 /* UIButton+BlackWhiteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BlackWhiteImage.m"; sourceTree = "<group>"; };
+		12754CED219411F6005A7048 /* BlackWhiteOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackWhiteOption.h; sourceTree = "<group>"; };
+		12754CEE219411F6005A7048 /* BlackWhiteOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackWhiteOption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 		12754CA1219401E7005A7048 /* BlackOrWhiteImageButton */ = {
 			isa = PBXGroup;
 			children = (
+				12754CB821940414005A7048 /* Source */,
 				12754CA2219401E7005A7048 /* AppDelegate.h */,
 				12754CA3219401E7005A7048 /* AppDelegate.m */,
 				12754CA5219401E7005A7048 /* ViewController.h */,
@@ -69,6 +113,82 @@
 				12754CB1219401E9005A7048 /* main.m */,
 			);
 			path = BlackOrWhiteImageButton;
+			sourceTree = "<group>";
+		};
+		12754CB821940414005A7048 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				12754CE72194073A005A7048 /* Util */,
+				12754CE621940701005A7048 /* ThirdParty */,
+				12754CCB219406E7005A7048 /* iOSPalette */,
+				12754CBF21940424005A7048 /* UIColor+Complementary.h */,
+				12754CC021940424005A7048 /* UIColor+Complementary.m */,
+				12754CED219411F6005A7048 /* BlackWhiteOption.h */,
+				12754CEE219411F6005A7048 /* BlackWhiteOption.m */,
+				12754CE821940B77005A7048 /* UIButton+BlackWhiteImage.h */,
+				12754CE921940B77005A7048 /* UIButton+BlackWhiteImage.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		12754CCB219406E7005A7048 /* iOSPalette */ = {
+			isa = PBXGroup;
+			children = (
+				12754CCD219406E7005A7048 /* iOSPalette.h */,
+				12754CCE219406E7005A7048 /* Source */,
+			);
+			path = iOSPalette;
+			sourceTree = "<group>";
+		};
+		12754CCE219406E7005A7048 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				12754CCF219406E7005A7048 /* Model */,
+				12754CD2219406E7005A7048 /* Palette.h */,
+				12754CD3219406E7005A7048 /* Palette.m */,
+				12754CD4219406E7005A7048 /* PaletteColorUtils.h */,
+				12754CD5219406E7005A7048 /* PaletteColorUtils.m */,
+				12754CD6219406E7005A7048 /* PaletteSwatch.h */,
+				12754CD7219406E7005A7048 /* PaletteSwatch.m */,
+				12754CD8219406E7005A7048 /* PaletteTarget.h */,
+				12754CD9219406E7005A7048 /* PaletteTarget.m */,
+				12754CDA219406E7005A7048 /* PriorityBoxArray.h */,
+				12754CDB219406E7005A7048 /* PriorityBoxArray.m */,
+				12754CDC219406E7005A7048 /* UIImage+Palette.h */,
+				12754CDD219406E7005A7048 /* UIImage+Palette.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		12754CCF219406E7005A7048 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12754CD0219406E7005A7048 /* PaletteColorModel.h */,
+				12754CD1219406E7005A7048 /* PaletteColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12754CE621940701005A7048 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				12754CC521940437005A7048 /* UIColor+Hex.h */,
+				12754CC621940437005A7048 /* UIColor+Hex.m */,
+				12754CBB21940423005A7048 /* UIImage+Extension.h */,
+				12754CBD21940423005A7048 /* UIImage+Extension.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		12754CE72194073A005A7048 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				12754CBC21940423005A7048 /* UIView+snapshot.h */,
+				12754CB921940423005A7048 /* UIView+snapshot.m */,
+				12754CC82194058C005A7048 /* UIViewController+Camera.h */,
+				12754CC92194058C005A7048 /* UIViewController+Camera.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +261,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12754CC221940424005A7048 /* UIImage+Extension.m in Sources */,
+				12754CC121940424005A7048 /* UIView+snapshot.m in Sources */,
 				12754CA7219401E7005A7048 /* ViewController.m in Sources */,
+				12754CE2219406E7005A7048 /* PaletteSwatch.m in Sources */,
+				12754CE3219406E7005A7048 /* PaletteTarget.m in Sources */,
+				12754CEF219411F6005A7048 /* BlackWhiteOption.m in Sources */,
+				12754CE0219406E7005A7048 /* Palette.m in Sources */,
+				12754CE4219406E7005A7048 /* PriorityBoxArray.m in Sources */,
+				12754CE5219406E7005A7048 /* UIImage+Palette.m in Sources */,
+				12754CDF219406E7005A7048 /* PaletteColorModel.m in Sources */,
+				12754CE1219406E7005A7048 /* PaletteColorUtils.m in Sources */,
 				12754CB2219401E9005A7048 /* main.m in Sources */,
+				12754CEA21940B77005A7048 /* UIButton+BlackWhiteImage.m in Sources */,
+				12754CCA2194058C005A7048 /* UIViewController+Camera.m in Sources */,
+				12754CC421940424005A7048 /* UIColor+Complementary.m in Sources */,
+				12754CC721940437005A7048 /* UIColor+Hex.m in Sources */,
 				12754CA4219401E7005A7048 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
